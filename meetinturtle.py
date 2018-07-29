@@ -12,23 +12,44 @@ turtle.penup() #Pick up the pen so it doesn’t
 turtle.goto(-200,-100) #Move the turtle to the 
  #position (-200, -100) 
  #on the screen
+
+
 turtle.pendown() #Put the pen down to start
-                 #drawing
+                 #drawingtutle.penup()
 
-# ...and end it before the next line.
-#Draw the M:
 
-turtle.goto(-200,-100+200)
+turtle.goto(-200,-100+200) 
 turtle.goto(-200+50,-100) 
 turtle.goto(-200+100,-100+200)
 turtle.goto(-200+100,-100) 
 
-tutle.penup()
-turtlependown()
-turtle.goto(x,y)
+turtle.penup()
+turtle.goto(-50,-100)
+turtle.pendown()
+turtle.goto(-50,100)
+turtle.goto(30,100)
+turtle.penup()
+turtle.goto(-50,0)
+turtle.pendown()
+turtle.goto(-50+80,0)
+turtle.penup()
+turtle.goto(-50,-100)
+turtle.pendown()
+turtle.goto(-50+80,-100)
 
 turtle.penup()
-turtle.goto(x,Y)
+turtle.goto(100,-100)
+turtle.pendown()
+turtle.goto(100,100)
+turtle.goto(180,100)
+turtle.penup()
+turtle.goto(100,0)
+turtle.pendown()
+turtle.goto(200,0)
+
+
+# ...and end it before the next line.
+turtle.mainloop()
 
 
 
